@@ -1,0 +1,623 @@
+/* RESET ALL MARGINS TO ZERO */
+* {
+  margin: 0;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+/* vh - viewport height */
+/* vw - viewport width */
+
+/* SECTION ONE */
+.sectionOne {
+  height: 75vh;
+  width: 100%;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionOne .logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #e5341d;
+  margin-left: 50px;
+}
+
+.sectionOne .navigation {
+  margin-right: 50px;
+}
+
+.sectionOne a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #868686;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.sectionOne .signIn-Btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fef0ef;
+  background-color: #e42a12;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.banner {
+  height: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/banner.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerText {
+  text-align: center;
+  width: 28%;
+  margin-top: 150px;
+}
+
+.sectionOne h1 {
+  font-size: 40px;
+  font-weight: 650;
+  line-height: 48px;
+  color: #494949;
+  margin-bottom: 20px;
+}
+
+.sectionOne p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8f8d8b;
+  margin-bottom: 30px;
+}
+
+.sectionOne .signUp-Btn {
+  padding: 18px 60px;
+  background-color: #e42a12;
+  color: #fde8e5;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* SECTION TWO */
+.sectionTwo {
+  height: 75vh;
+  width: 100%;
+}
+
+.sectionTwo .title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionTwo h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #515151;
+  margin-bottom: 10px;
+}
+
+.sectionTwo .title > p {
+  color: #929292;
+}
+
+.sectionTwo .content {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwo .principle {
+  height: 80%;
+  width: 25%;
+}
+
+.sectionTwo .variety {
+  margin: 0 30px;
+}
+
+.principle .image {
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.convenience .image {
+  background-image: url(/images/convenience.webp);
+}
+
+.variety .image {
+  background-image: url(/images/variety.webp);
+}
+
+.deliciousness .image {
+  background-image: url(/images/deliciousness.webp);
+}
+
+.principle .description {
+  height: 50%;
+  width: 100%;
+}
+
+.principle h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #5d5d5d;
+}
+
+.principle p {
+  color: #727272;
+}
+
+.principle .fa-check {
+  color: green;
+  margin-right: 4px;
+}
+
+/* SECTION THREE */
+.sectionThree {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+}
+
+.sectionThree .image {
+  height: 100%;
+  width: 50%;
+  background-image: url(/images/Family_cooking.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionThree .content {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe6de;
+}
+
+.sectionThree .text {
+  /* height: 70%; */
+  width: 80%;
+}
+
+.sectionThree h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #e42c14;
+}
+
+.sectionThree p {
+  color: #6a635f;
+  margin-bottom: 16px;
+}
+
+.sectionThree .step {
+  font-weight: 600;
+  color: #403d3c;
+  margin-bottom: 14px;
+}
+
+.sectionThree span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff9874;
+  margin-right: 10px;
+}
+
+.sectionThree .learn-btn {
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fbe5e1;
+  padding: 15px 35px;
+  border-radius: 30px;
+  margin-top: 40px;
+  background-color: #e42a12;
+}
+
+/* SECTION FOUR */
+.sectionFour {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionFour .title {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionFour h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #494949;
+}
+
+.sectionFour p {
+  font-size: 18px;
+  width: 60%;
+  text-align: center;
+  color: #a3a3a3;
+  font-weight: 300;
+}
+
+.sectionFour .menu {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionFour .item {
+  height: 80%;
+  width: 24%;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionFour .vegan {
+  background-image: url(/images/vegan.webp);
+}
+
+.sectionFour .weeklyClassic {
+  margin: 0 35px;
+  background-image: url(/images/weekly_classic.webp);
+}
+
+.sectionFour .vegetarian {
+  background-image: url(/images/Vegetarian.webp);
+}
+
+.item {
+  position: relative;
+}
+
+.item .tag {
+  width: fit-content;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.vegan .tag {
+  color: #a3c861;
+  background-color: #d8f4a4;
+}
+
+.weeklyClassic .tag {
+  color: #98a8e4;
+  background-color: #d9e3fe;
+}
+
+.vegetarian .tag {
+  color: #75c897;
+  background-color: #c5f4d8;
+}
+
+.sectionFour .menu-btn {
+  padding: 18px 30px;
+  border: none;
+  background-color: #e42a12;
+  border-radius: 40px;
+  color: #fdefed;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* SECTION FIVE */
+.sectionFive {
+  height: 75vh;
+  width: 100%;
+  background-color: #f3f4f6;
+}
+
+.sectionFive .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.sectionFive .title > img {
+  height: 46px;
+  width: 46px;
+}
+
+.sectionFive .title > h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #515151;
+  text-decoration: underline;
+}
+
+.sectionFive .reviews {
+  height: 85%;
+}
+
+.sectionFive .users {
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sectionFive .user {
+  height: 80%;
+  width: 20%;
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionFive .first {
+  background-image: url(/images/dxblivin-credit.webp);
+}
+.sectionFive .second {
+  background-image: url(/images/ayshasaiha.webp);
+}
+.sectionFive .third {
+  background-image: url(/images/shrimply.webp);
+}
+.sectionFive .fourth {
+  background-image: url(/images/ashley_dxb.webp);
+}
+
+.sectionFive .rating {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sectionFive .rating > p {
+  color: #9d9d9f;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.sectionFive .meals {
+  color: #e53e28;
+}
+
+.sectionFive .rating > .stats {
+  font-size: 16px;
+}
+
+.sectionFive .stats > .fa-solid {
+  color: #f6ad01;
+}
+
+.sectionFive .stats > img {
+  height: 36px;
+  margin-bottom: -12px;
+}
+
+/* SECTION SIX */
+.sectionSix {
+  height: 70vh;
+  width: 100%;
+  background-image: url(/images/subscribe.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionSix .form {
+  height: 40%;
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.sectionSix .form > h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #4d4d4d;
+}
+
+.sectionSix .form > p {
+  margin-bottom: 10px;
+  color: #9a9a9a;
+}
+
+.sectionSix .form > label {
+  font-size: 14px;
+  margin-left: -330px;
+  color: #cacccf;
+  font-weight: 300;
+}
+
+.sectionSix .form > input {
+  width: 35%;
+  height: 40px;
+  border: solid 1px #f9f9f9;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  color: #cacccf;
+}
+
+.sectionSix button {
+  border: none;
+  padding: 13px 10px;
+  background-color: #e42a12;
+  border-radius: 0 10px 10px 0;
+  margin-left: -8px;
+  color: #f8c7c1;
+  font-weight: 500;
+}
+
+.sectionSix .disclaimer {
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+  font-size: 12px;
+  color: #d7d0c9;
+}
+
+/* SECTION SEVEN */
+.sectionSeven {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fafafa;
+}
+
+.sectionSeven h2 {
+  color: #e5311a;
+  font-size: 26px;
+}
+
+.sectionSeven .navigation {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionSeven .internal,
+.sectionSeven .external {
+  gap: 10px;
+  width: 48%; /* Adjusted for slight gap between internal and external */
+  display: flex;
+  justify-content: space-between;
+}
+.sectionSeven .external img {
+  height: 70px;
+  width: 100px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+.sectionSeven .blog {
+  text-align: right;
+}
+
+.sectionSeven .contact,
+.sectionSeven .blog {
+  width: fit-content;
+}
+.sectionSeven .links {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.sectionSeven h3 {
+  color: #7e7e7e;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.sectionSeven a {
+  text-decoration: none;
+  color: #c3c5c8;
+}
+
+.sectionSeven label {
+  color: #bec0c4;
+  font-size: 14px;
+}
+
+.sectionSeven input {
+  width: 230px;
+  height: 35px;
+  border: solid 1px #f9f9f9;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  color: #cacccf;
+}
+
+.sectionSeven button {
+  border: none;
+  padding: 8px 5px;
+  background-color: #e42a12;
+  border-radius: 0 10px 10px 0;
+  margin-left: -4px;
+  color: #f8c7c1;
+  font-weight: 400;
+}
+
+.sectionSeven .fa-solid {
+  color: #f6ad01;
+  font-size: 20px;
+}
+
+.sectionSeven .fa-brands {
+  color: #93969d;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.sectionSeven .stats > img {
+  height: 30px;
+  width: 60px;
+  margin-left: -12px;
+  margin-bottom: -8px;
+}
+
+.sectionSeven .socials {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sectionSeven .pages {
+  text-align: right;
+}
+
+.sectionSeven .copyright {
+  text-align: center;
+}
+
+.sectionSeven .redheart {
+  color: red;
+  font-size: 30px;
+}
+
+/* .sectionSeven.subscription,
+.sectionSeven.ratings,
+.sectionSeven.pages{
+  width: fit-content;
+} */
